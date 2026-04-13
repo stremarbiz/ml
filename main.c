@@ -7,7 +7,7 @@
 
 #include "arena.c"
 #include "prng.c"
-#include <stdio.h>
+
 typedef struct 
 {
     u32 rows, cols;
