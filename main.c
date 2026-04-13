@@ -3,8 +3,6 @@
 #include "prng.h"
 #include "arena.c"
 #include "prng.c"
-#include <stdio.h>
-#include <stdlib.h>
 
 typedef struct 
 {
