@@ -34,11 +34,10 @@ int main()
 // %f floats, %d, integers, %u unsigned int
     //.x = 1;
     //.y = 2'
-    struct vec1f v =
-    {
+    struct vec1f v ={
         .1 x;
-        
-    }
+
+    };
 
     return 0;
 }
