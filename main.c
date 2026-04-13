@@ -15,6 +15,9 @@ typedef struct
 } matrix;
 
 matrix* mat_create(mem_arena* arena, u32 rows, u32 cols);
+matrix* mat_load(mem_arena* arena, u32 rows, u32 cols, const char* filename);
+b32 mat_copy(matrix* dst, matrix* src);
+void mat_clear(matrix* src);
 
 int main(void)
 {
