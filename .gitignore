@@ -1,0 +1,23 @@
+# Build
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# IDE
+.vs/
+.vscode/
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Temp
+*.log
+*.tmp
+
+# Dataset (optional — keep or remove)
+*.mat
