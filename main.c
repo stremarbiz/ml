@@ -6,13 +6,13 @@
 #include "prng.h"
 
 #include "arena.c"
-#include "prng1.c"
+#include "prng.c"
 
 typedef struct 
 {
     u32 rows, cols;
     f32* data;
-} matrix;
+} matrixs;
 
 matrix* mat_create(mem_arena* arena, u32 rows, u32 cols);
 matrix* mat_load(mem_arena* arena, u32 rows, u32 cols, const char* filename);
