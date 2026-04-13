@@ -5,7 +5,7 @@
 #include "prng.c"
 #include <stdio.h>
 
-typedef s1truct 
+typedef struct 
 {
     u32 rows, cols;
     f32* data;
