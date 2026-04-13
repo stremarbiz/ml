@@ -22,11 +22,18 @@ struct vec2f //grouping of data, plain data // 4 bytes on x and  4 on y cuz type
     f32 y;
 };
 
+struct vec1f
+{
+    f32 x;
+    f32 y;
+};
 int main()
 {
     struct vec2f v = { 1, 2}; //x = 1, y = 2
     printf("Vector = < %f, %f\n", v.x, v.y); //first %f corresponds to first v.x, second to v.y, stupid
 // %f floats, %d, integers, %u unsigned int
+    //.x = 1;
+    //.y = 2'
 
     return 0;
 }
