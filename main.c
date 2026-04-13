@@ -6,7 +6,7 @@
 #include "prng.h"
 
 #include "arena.c"
-#include "prng.c"
+#include "prng1.c"
 
 typedef struct 
 {
