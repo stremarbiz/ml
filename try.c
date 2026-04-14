@@ -2,7 +2,8 @@
 
 
 int x = 5;
-int x *ptrx = 5;
+
+struct myStruct = ["1, 2"];
 
 
 int main(){
