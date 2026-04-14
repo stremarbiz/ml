@@ -3,7 +3,7 @@
 
 int x = 5;
 
-struct myStruct = ["1, 2"];
+struct myStruct;
 
 
 int main(){
