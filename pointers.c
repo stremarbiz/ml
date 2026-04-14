@@ -24,6 +24,12 @@ typedef struct
 
 int main()
 {
+    i32 nums[] = {1, 2, 3, 4, 5};
+    for (u32 i = 0; i < 5; i++)
+    {
+        printf("%d", nums[i])
+    }
+    
     i32 x = 123;
 
     i32* ppx = &x; //* can be at 2 or middle or before px; address corresponds to value of x (p)
