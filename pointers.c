@@ -22,6 +22,8 @@ typedef struct
     f32 y;
 } vec2f;
 
+i32 x = 123;
+
 int main()
 {
     i32 x = 123;
