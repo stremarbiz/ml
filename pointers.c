@@ -27,6 +27,7 @@ int main()
     i32 x = 123;
 
     i32* px; //* can be at 2 or middle or before px; address corresponds to value of x (p)
+    printf("Which value? Learn now"), px;
 
     return 0;
 }
