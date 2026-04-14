@@ -5,6 +5,7 @@ int x = 5;
 
 struct myStruct;
 
+int myFunction(*ptr int);
 
 
 int main(){
