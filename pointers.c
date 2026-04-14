@@ -2,7 +2,7 @@
 #include <stdint.h> // integer types, guaranteed sizes, as below
 #include <stdbool.h> //bool type true or false
 typedef int8_t i8; //8 bits signed (0 to positive)
-typedef int16_t i6;
+typedef int16_t i16;
 typedef int32_t i32; //most used  // negative 2147m to 2147m
 typedef int64_t i64;
 typedef uint8_t u8; //8 bits unsigned
@@ -22,14 +22,12 @@ typedef struct
     f32 y;
 } vec2f;
 
-i32 x = 123;
-
 int main()
 {
     i32 x = 123;
 
     i32* px; //* can be at 2 or middle or before px; address corresponds to value of x (p)
-    printf("Which value? Learn now"), &px;
+    printf("Which value? Learn now");
 
     return 0;
 }
