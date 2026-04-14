@@ -37,5 +37,8 @@ int main()
 
     printf("%f %f\n", v.x, v.y);
 
+    (*pointerv).x = 3;
+    printf("%f %f\n", v.x, v.y);
+
     return 0;
 }
