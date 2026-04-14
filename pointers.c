@@ -27,7 +27,7 @@ int main()
     i32 x = 123;
 
     i32* px = &x; //* can be at 2 or middle or before px; address corresponds to value of x (p)
-    printf("Address of x: %p\n"), (void*)&x;
+    printf("Address of x: %p\n"), (int*)&x;
 
     return 0;
 }
