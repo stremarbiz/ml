@@ -27,7 +27,7 @@ int main()
     i32 nums[] = {1, 2, 3, 4, 5};
     for (u32 i = 0; i < 5; i++)
     {
-        printf("%d", nums[i]);
+        printf("%d ", nums[i]);
     }
     printf("\n");
     
