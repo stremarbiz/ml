@@ -32,5 +32,10 @@ int main()
     *ppx = 321;
     printf("%d %p\n", x, ppx);
 
+    vec2f v = {1, 2};
+    vec2f* pointerv = &v;
+
+    printf("%f %f\n", v.x, v.y);
+
     return 0;
 }
