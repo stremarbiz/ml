@@ -29,6 +29,7 @@ int main()
     {
         printf("%d", nums[i])
     }
+    printf("\n");
     
     i32 x = 123;
 
