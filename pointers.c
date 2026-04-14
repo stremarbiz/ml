@@ -26,10 +26,10 @@ int main()
 {
     i32 x = 123;
 
-    i32* px = &x; //* can be at 2 or middle or before px; address corresponds to value of x (p)
+    i32* ppx = &x; //* can be at 2 or middle or before px; address corresponds to value of x (p)
     printf("%d %p\n", x, px);
 
-    *px = 321;
+    *ppx = 321;
     printf("%d %p\n", x, px);
 
     return 0;
